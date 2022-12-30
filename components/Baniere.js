@@ -1,6 +1,8 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import Pulse from 'react-reveal/Pulse';
+
 
 
 function Baniere() {
@@ -14,7 +16,13 @@ function Baniere() {
 
             </div>
             <div className='  p-4  w-full '>
-                <h1 className=' font-bold text-[60px] font-[Open Sans]  text-black flex justify-center items-center mb-4 iphone3:text-[40px]'>Bienvenue au CEFPAMS</h1>
+                <h1 className=' font-bold text-[60px] font-[Open Sans]  text-black flex justify-center items-center mb-4 iphone3:text-[40px]'>
+                <Pulse>
+                <a href='#bienvenue' aria-hidden="true">
+                    Bienvenue au CEFPAMS
+                </a>
+                </Pulse>
+                </h1>
                 <p className='leading-7 text-black'>
                     
                     CEFPAM est établissement de formation professionnelle, des petits métiers, des langues et d'appui scolaire basé au Tchad.
@@ -49,7 +57,7 @@ function Baniere() {
 </div>
 
 
-<div className='flex justify-between  sm:grid sm:grid-rows-1 bg-gradient-to-r from-yellow-600 to-gray-100 gap-4  '>
+<div className='flex justify-between  sm:grid sm:grid-rows-1 bg-gradient-to-r from-green-600 to-gray-100 gap-4  '>
     <Slide rigth>
     <div className='w-ful'>
     <img src="form2.png" width="100%"  alt="placehold images"/>
