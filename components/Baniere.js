@@ -16,13 +16,14 @@ function Baniere() {
 
             </div>
             <div className='  p-4  w-full '>
-                <h1 className=' font-bold text-[60px] font-[Open Sans]  text-black flex justify-center items-center mb-4 iphone3:text-[40px]'>
-                <Pulse>
+                 <Pulse>
                 <a href='#bienvenue' aria-hidden="true">
+                <h1 className=' font-bold text-[60px] font-[Open Sans]  text-black flex justify-center items-center mb-4 sm:text-[40px]'>
                     Bienvenue au CEFPAMS
+                </h1>
                 </a>
                 </Pulse>
-                </h1>
+                
                 <p className='leading-7 text-black'>
                     
                     CEFPAM est établissement de formation professionnelle, des petits métiers, des langues et d'appui scolaire basé au Tchad.
@@ -30,13 +31,13 @@ function Baniere() {
                 </p>
 
             </div>
-        </div>
+        </div><Fade top>
+<h1 className='flex items-center justify-center text-center text-blue-900 font-[Open Sans] text-[60px] font-600  p-4' id='objectif'>Nos offres</h1>
+</Fade>
     </div>
 
 
 
-
-<h1 className='flex items-center justify-center text-center text-blue-900 font-[Open Sans] text-[60px] font-600  p-4' id='objectif'>Nos offres</h1>
 
 
 <div className='flex justify-between  sm:grid sm:grid-rows-1 bg-gradient-to-r from-blue-600 to-gray-100 gap-4  '>
