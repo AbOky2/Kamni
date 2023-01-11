@@ -21,8 +21,8 @@ import ListItem from '@material-ui/core/ListItem';
 
 const navigationLinks = [
     {name: "Qui sommes nous", href: "#bienvenue"},
-    {name: "Nos Offres", href: "#objectif"},
-    {name: 'Membres', href: "#membres"},
+    {name: "Nos Formations", href: "#objectif"},
+    {name: 'Nous contacter', href: "#membres"},
 ];
 
 const useStyles = makeStyles((theme) => ({

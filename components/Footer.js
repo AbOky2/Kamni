@@ -22,7 +22,7 @@ function Footer() {
             </a>
             </div>
             <div>
-            <a href='https://www.facebook.com/kamnilerevolutionnaire.lerevolutionnaire'>
+            <a href="mailto:cefpams@email.com">
                 <ImGoogle/>
             </a>
             </div>
