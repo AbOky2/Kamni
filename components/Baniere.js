@@ -26,7 +26,7 @@ function Baniere() {
                 
                 <p className='leading-7 text-black'>
                     
-                    CEFPAM est établissement de formation professionnelle, des petits métiers, des langues et d'appui scolaire basé au Tchad.
+                    CEFPAMS est établissement de formation professionnelle, des petits métiers, des langues et d'appui scolaire basé au Tchad.
                     Il est structuré de façons à favoriser l'apprentissage concrets permettant aux apprenants d'acquérir le savoir et le savoir-faire pour exercer un métier.
 
                 </p>
